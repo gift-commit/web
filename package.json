@@ -1,0 +1,25 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "The frontend to GiftCommit (gifts.spradling.me)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gift-commit/web.git"
+  },
+  "author": "Brett Spradling",
+  "bugs": {
+    "url": "https://github.com/gift-commit/web/issues"
+  },
+  "homepage": "https://github.com/gift-commit/web#readme",
+  "dependencies": {
+    "next": "^7.0.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
