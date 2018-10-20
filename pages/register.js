@@ -4,7 +4,7 @@ import Head from '../components/head'
 
 const Login = () => (
     <div>
-        <Head title="Login"></Head>
+        <Head title="Create Account"></Head>
         <div style={{height: '100vh'}}>
             <div class="row h-100 justify-content-center align-items-center bg-light">
                 <Col lg={{ size: 4}}>

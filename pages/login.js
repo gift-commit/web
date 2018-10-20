@@ -27,7 +27,7 @@ const Login = () => (
                                 <Row>
                                     <Col md={2}/>
                                     <Col>
-                                        <a class="text-muted" href="www.google.com"> Create Account</a>
+                                        <a class="text-muted" href="/register"> Create Account</a>
                                     </Col>
                                     <Col>
                                         <a class="text-muted" href="www.google.com"> Forgot Password?</a>
