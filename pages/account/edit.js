@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../components/head'
+import Header from '../../components/head'
 
-export default class Index extends React.Component {
+export default class EditAccount extends React.Component {
   
   render() {
     return (

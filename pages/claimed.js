@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/head'
 
-export default class Index extends React.Component {
+export default class Claimed extends React.Component {
   
   render() {
     return (

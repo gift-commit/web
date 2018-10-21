@@ -1,5 +1,6 @@
 
-import { Button, Row, Col, Form, FormGroup, Input } from 'reactstrap'
+import { NavLink, Button, Row, Col, Form, FormGroup, Input } from 'reactstrap'
+import Link from 'next/link'
 import Head from '../components/head'
 
 const Login = () => (
@@ -21,16 +22,16 @@ const Login = () => (
                                 </Col> 
                             </FormGroup>
                             <FormGroup>
-                                <Button style={{width: '60%'}}> Sign In </Button>
+                                <Link href="/home"><Button style={{width: '60%'}}>Sign In</Button></Link>
                             </FormGroup>
                             <FormGroup>
                                 <Row>
                                     <Col md={2}/>
                                     <Col>
-                                        <a class="text-muted" href="/register"> Create Account</a>
+                                        <NavLink className="text-muted" preload href="/register"> Create Account </NavLink>
                                     </Col>
                                     <Col>
-                                        <a class="text-muted" href="www.google.com"> Forgot Password?</a>
+                                        <NavLink className="text-muted" preload href="/reset"> Forgot Password? </NavLink>
                                     </Col>
                                     <Col md={2}/>
                                 </Row>
