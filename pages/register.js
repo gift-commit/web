@@ -1,6 +1,7 @@
 
 import { Button, Row, Col, Form, FormGroup, Input } from 'reactstrap'
 import Head from '../components/head'
+import Link from 'next/link'
 
 const Login = () => (
     <div>
@@ -24,7 +25,7 @@ const Login = () => (
                             </FormGroup>
                             <FormGroup>
                                 <Col lg={{ size: 10, offset: 1}}>
-                                    <Input type="te xt" placeholder="Email"></Input>
+                                    <Input type="text" placeholder="Email"></Input>
                                 </Col> 
                             </FormGroup>
                             <FormGroup>
@@ -38,7 +39,7 @@ const Login = () => (
                                 </Col> 
                             </FormGroup>
                             <FormGroup>
-                                <Button style={{width: '60%'}}> Create Account </Button>
+                                <Link href="/login"><Button style={{width: '60%'}}>Create Account</Button></Link> 
                             </FormGroup>
                         </Form>
                     </div>

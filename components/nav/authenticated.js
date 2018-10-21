@@ -1,5 +1,6 @@
 import React from 'react'
 import { Dropdown, DropdownItem, DropdownToggle, DropdownMenu, Media, Nav, NavItem, NavLink } from 'reactstrap'
+import Link from 'next/link'
 
 export default class AuthenticatedNav extends React.Component {
 
@@ -37,10 +38,10 @@ export default class AuthenticatedNav extends React.Component {
             <DropdownToggle caret>
               My Account
             </DropdownToggle>
-            <DropdownMenu right>
-              <DropdownItem>Edit Profile</DropdownItem>
+            <DropdownMenu right className="text-center">
+              <DropdownItem href="/account/edit">Edit Profile</DropdownItem>
               <DropdownItem divider />
-              <DropdownItem className="text-danger">Sign Out</DropdownItem>
+              <DropdownItem className="text-danger" href="/login">Sign Out</DropdownItem>
             </DropdownMenu>
           </Dropdown>
         </NavItem>
