@@ -9,6 +9,7 @@
     "next": "^7.0.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "reactstrap": "^6.5.0"
+    "reactstrap": "^6.5.0",
+    "whatwg-fetch": "^2.0.4"
   }
 }
